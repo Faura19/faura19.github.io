@@ -1,1 +1,282 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
 
+.contenedores{
+    height: 1900px;
+    margin: 130px;
+    background-color: white;
+    width: auto;
+
+}
+.titulocontenedores{
+    font-size: 55px;
+    color: gray;
+    background-color: white;
+    
+}
+
+.contenedorprimario{
+    display: grid;
+    background-color:white;
+    border-radius: 58px;
+    margin-left: 105px;
+    margin-right: 135px;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 560px 100px;
+    gap: 40px;
+}
+
+.contenedorsecundario{
+    display: grid;
+    background-color: white;
+    border-radius: 58px;
+    margin-left: 105px;
+    margin-right: 135px;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 460px 100px;
+    gap: 40px;
+    
+}
+
+.contenedorterciario{
+    display: grid;
+    background-color: white;
+    border-radius: 58px;
+    margin-left: 105px;
+    margin-right: 135px;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 460px 100px;
+    gap: 40px;
+    
+}
+
+.imagen1{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url(informatica.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.imagen2{
+    
+    color: white;
+    font-size: 30px;
+    display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+    background-image: url(integracion.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.imagen3{
+    color: white;
+    font-size: 30px;
+    display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+    background-image: url(administracion.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.imagen4{
+    color: white;
+    font-size: 30px;
+    display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+    background-image: url(educacioninfantil.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.imagen5{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url(deporte.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.imagen6{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url(cocina.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+footer{
+    background-color:#D9D9D9; 
+    height:10dvh; 
+    
+}
+
+.opcion{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.opcion ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.textfooter{
+    margin-bottom: -8px;
+    background-color: #D9D9D9;
+}
+
+.seccionprincipal{
+    background-color:   #D9D9D9;
+    height:100vh;
+    width:100vw;
+    margin-top: -50px;
+}
+.logovedruna{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 2%;
+}
+.logo>img{
+    height: 100px;
+    margin-top: -20px;
+}
+
+.cabeceraprincipal{
+    margin: 50px;
+    display: flex;
+   justify-content: space-between;
+    align-items: flex-end;
+}
+.menuprincipal ul{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.menuprincipal ul a:hover{
+    color: #00c8ff;
+    
+}
+
+.inicio{
+    font-family: sans-serif;
+    font-size: 50px;
+    color: gray;
+    margin-left: 78px;
+    margin-top: 118px;
+}
+.boton{
+    gap: 0px;
+    margin-top: 52px;
+    font-size: 42px;
+    
+
+}
+
+.dudas{
+    background-color: rgb(0, 178, 227);
+    border-radius: 10px;
+    font-size: 30px;
+    width: 310px;
+    color: white;
+    font-family:serif
+}
+.informacion{
+    background-color: rgb(0, 178, 227);
+    border-radius: 10px;
+    font-size: 30px;
+    width: 310px;
+    color: white;
+    font-family: serif
+
+}
+.fondoazul{
+    color: #00B2E3;
+}
+
+
+    </style>
+
+  </head>
+  <body>
+    <div class="seccionprincipal">
+      <div class="cabeceraprincipal">
+        <div class="logovedruna">
+            <img src="logovedruna.png" alt="logo(2).png" />
+            <p><span class="fondoazul">fundación</span><br><strong>VEDRUNA<br> EDUCACIÓN</strong></p>
+        </div>
+    <title>Document</title>
+        <div class="menuprincipal">
+          <ul>
+            <li><a href="#">INICIO</a></li>
+            <li><a href="#">CURSOS</a></li>
+            <li><a href="#">INFORMACIÓN</a></li>
+            <li><a href="#">MATRÍCULA</a></li>
+            <li><a href="#">CONTACTO</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="inicio">
+          <h1>ESCUELA PROFESIONAL <br> VEDRUNA SEVILLA</h1>
+          <h3><span class="subtitle">DA VIDA A TU <span class="fondoazul">FUTURO PROFESIONAL</span></span></h3>
+        <div class="boton">
+            <button class="dudas">
+                <p>¿Tienes dudas?</p>
+            </button>
+            <button class="informacion">
+                <p>Más información</p>
+            </button>
+        </div>
+      </div>
+    </div>
+    <div class="contenedores">
+
+      <h1 class="titulocontenedores">CURSOS</h1>
+      <br></br>
+    <div class="contenedorprimario">
+
+      <div class="imagen1">TÉCNICO SUPERIOR EN DESARROLLO DE APLICACIONES MULTIPLATAFORMA</div>
+      <div class="imagen2">TÉCNICO SUPERIOR EN INTEGRACIÓN SOCIAL</div>
+
+    </div>
+    <div class="contenedorsecundario">
+
+      <div class="imagen3">TÉCNICO SUPERIOR EN ADMINISTRACIÓN YFINANZAS</div>
+      <div class="imagen4">TÉCNICO SUPERIOR EN EDUCACIÓN INFANTIL</div>
+    </div>
+      <div class="contenedorterciario">
+
+      <div class="imagen5">TÉCNICO SUPERIOR EN ACONDICIONAMIENTO FÍSICO</div>
+      <div class="imagen6">TÉCNICO SUPERIOR EN<br> DIRECCIÓN DE COCINA</div>
+    </div>
+    
+    </div>
+    <footer>
+      <div class="opcion">
+        <ul>
+          <li><a href="#">Aviso legal</a></li>
+          <li><a href="#">Calidad</a></li>
+          <li><a href="#">Politica de privacidad</a></li>
+          <li><a href="#">Terminos y condiciones</a></li>
+          
+        </ul>
+      </div>
+      <p class="textfooter"><center>© 2023 Colegio Santa Joaquina de Vedruna | Fundación Vedruna Educación</center></p>
+    </footer>
+  </body>
+</html>
